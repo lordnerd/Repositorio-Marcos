@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>
+        Jogo dos véio
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>
+    Jogo dos Véio
+</h1>
+
+<div>
+    <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div class="cumpadi">
+    <label>
+        Cumpadi:
+    </label>
+    <label id="cumpadi-selecionado">
+
+    </label>
+</div>
+
+<div class="ganho">
+    <label>
+        Ganhô:
+    </label>
+    <label id="miseravi-sortudo">
+
+    </label>
+</div>
+
+<div>
+    <button onclick="reiniciar()">
+        Apague essa peste aí!
+    </button>
+</div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: rgb(245, 11, 11);
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(245, 11, 11);
+}
+
+.cumpadi, .ganho {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: #eee;
+    cursor: pointer;
+}
